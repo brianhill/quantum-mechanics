@@ -4,7 +4,9 @@
 
 *Spring Semester (Terms 4 &amp; 5) 2026, Deep Springs College, [Prof. Brian Hill](https://brianhill.github.io)*
 
-*Directed Study Students: Lucinda Bean (DS 25), Keevan Kearns (DS 25), and Grisha London (DS 25)
+*Directed Study Students: Lucinda Bean (DS 25), Keevan Kearns (DS 25), and Grisha London (DS 25)*
+
+*Course meeting times: 6:30-7:55am, Mo/Th*
 
 ## Syllabus
 
