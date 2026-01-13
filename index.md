@@ -14,8 +14,8 @@ A [PDF of the Preliminary Syllabus - FORTHCOMING](./QuantumMechanicsPreliminaryS
 
 Detailed daily schedules will be kept retrospectively:
 
-* [Daily Schedule-Term 4 - FORTHCOMING](./daily_schedule-term_4.html)
-* [Daily Schedule-Term 5 - FORTHCOMING](./daily_schedule-term_5.html)
+* [Daily Schedule-Term 4](./daily_schedule-term_4.html)
+* [Daily Schedule-Term 5](./daily_schedule-term_5.html)
 
 ## Overview
 
