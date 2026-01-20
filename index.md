@@ -10,7 +10,7 @@
 
 ## Syllabus
 
-A [PDF of the Preliminary Syllabus - FORTHCOMING](./QuantumMechanicsPreliminarySyllabus.pdf) containing essentially the same information as is on these web pages.
+The [Quantum Mechanics DS Proposal](./QuantumMechanicsDSProposal.pdf) will serve as our preliminary syllabus.
 
 ## Daily Schedules
 
