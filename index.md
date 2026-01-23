@@ -4,7 +4,7 @@
 
 *Spring Semester (Terms 4 &amp; 5) 2026, Deep Springs College, [Prof. Brian Hill](https://brianhill.github.io)*
 
-*Directed Study Students: Lucinda Bean (DS 25), Keevan Kearns (DS 25), and Grisha London (DS 25)*
+*Directed Study Students: Lucinda Bean (DS 25) and Grisha London (DS 25)*
 
 *Course meeting times: 6:30-7:55am, Mo/Th*
 
@@ -27,9 +27,11 @@ In sum, in this course you will encounter behaviors and theories so strange and 
 
 ## Texts
 
-* Townsend
-* Feynman
+* Feynman, Volume III
+* Townsend, 2nd Ed
 
 ## Grading
 
-* TBD
+* 40% Homework
+* 15% Full Participation in and Leadership of the Directed Study
+* 45% Three Exams
