@@ -21,5 +21,5 @@ See also [Daily Schedule-Term 5](./daily_schedule-term_5.html)
 
 ### Week 4 &mdash; Exam 1 &mdash; Identical Particles
 
-* Monday, Feb. 2 &mdash; Exam 1 on CBV, Chapter 1, Wolfson, Chapter 14, and Feynman, Chapters I-29, I-30, III-1, III-2, and III-3 (glossing the Bohr atom, the Uncertainty Principle, and Feynman's emphasis on crystal diffraction patterns, even though the latter are experimentally and scientifically extremely important for discovering the lattice structure of crystals)
-* Thursday, Feb. 5 &mdash; Reading: Feynman Chapter III-4 (and review Section III-3-4 where idential particles were first introduced)
+* Monday, Feb. 2 &mdash; [Exam 1](./exams/Exam1.nb.pdf) on CBV, Chapter 1, Wolfson, Chapter 14, and Feynman, Chapters I-29, I-30, III-1, III-2, and III-3 (glossing the Bohr atom, the Uncertainty Principle, and Feynman's emphasis on crystal diffraction patterns, even though the latter are experimentally and scientifically extremely important for discovering the lattice structure of crystals)
+* Thursday, Feb. 5 &mdash; Reading: Feynman Chapter III-4 (and review Section III-3-4 where identical particles were first introduced) &mdash; Problem Set 7: 
