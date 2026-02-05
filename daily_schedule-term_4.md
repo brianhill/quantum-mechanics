@@ -26,5 +26,5 @@ See also [Daily Schedule-Term 5](./daily_schedule-term_5.html)
 
 ### Week 5 &mdash; Black-Body Radiation &mdash; Fermi-Dirac Statistics
 
-* Monday, Feb. 9  &mdash; Reading: Finish Feynman Chapter III-4 &mdash; Problem Set 8: 1. 71.1; 2. 71.2; 3. 71.4; 4. 71.7; 5. 71.12 (hard but very worthwhile, and take a look at 71.13 if you want to know why )
+* Monday, Feb. 9  &mdash; Reading: Finish Feynman Chapter III-4 &mdash; Problem Set 8: 1. 71.1; 2. 71.2; 3. 71.4; 4. 71.7; 5. 71.12 (hard but very worthwhile, and take a look at 71.13 if you want to know why it is so worthwhile)
 * Thursday, Feb. 12
