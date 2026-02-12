@@ -1,8 +1,3 @@
-## Quantum Mechanics &mdash; Daily Schedule Term 4
-
-Course [home page](./)
-
-See also [Daily Schedule-Term 5](./daily_schedule-term_5.html)
 
 ### Week 1 &mdash; Introduction to Quantum-Mechanical Interference &mdash; Introduction to Complex Variables
 
@@ -24,7 +19,11 @@ See also [Daily Schedule-Term 5](./daily_schedule-term_5.html)
 * Monday, Feb. 2 &mdash; [Exam 1](./exams/Exam1.nb.pdf) on CBV, Chapter 1, Wolfson, Chapter 14, and Feynman, Chapters I-29, I-30, III-1, III-2, and III-3 (glossing the Bohr atom, the Uncertainty Principle, and Feynman's emphasis on crystal diffraction patterns, even though the latter are experimentally and scientifically extremely important for discovering the lattice structure of crystals)
 * Thursday, Feb. 5 &mdash; Reading: Feynman Chapter III-4 through Section III-4-4 &mdash; Review Section III-3-4 where identical particles were first introduced &mdash; Problem Set 7: 1. Exam Problem 4; 2. Exam Extra Credit Problem 6
 
-### Week 5 &mdash; Black-Body Radiation &mdash; Fermi-Dirac Statistics
+### Week 5 &mdash; Black-Body Radiation &mdash; Fermi-Dirac Statistics &mdash; Spin 1 Systems
 
 * Monday, Feb. 9  &mdash; Reading: Finish Feynman Chapter III-4 &mdash; Problem Set 8: 1. 71.1; 2. 71.2; 3. 71.4; 4. 71.7; 5. 71.12 (hard but very worthwhile, and take a look at 71.13 if you want to know why it is so worthwhile)
 * Thursday, Feb. 12 &mdash; Reading: All of Feynman Chapter III-5, and the supporting material from II-35 (up to but not including Rabi's method) &mdash; Prolem Set 9: 0.(a) Derive the angular momentum of a spinning sphere from first principles (the definition of angular momentum) and 0.(b) Derive the magnetic moment of a charged spinning disk, starting from the first princples (the definition of magnetic moment); Problems 1-4 are all four of Feynman's problems that go with Chapter III-5
+
+### Week 6 &mdash; Spin 1/2 Systems &mdash; Time-Dependence
+
+* Monday, Feb. 16  &mdash; Reading: Do as much reading in Chapter III-6 as you need to do the problem set (about half the chapter?) &mdash; Problem Set 10: 0. Prove using the formulas given in Section 5-7, what is claimed in the last paragraph of the section; Problems 1-3 are the first three of Feynman's problems that go with Chapter III-6; As Problem 4, redo the last problem on the previous problem set if you misinterpreted it (look briefly at the first few sentences of my solution to understand the intended interpretation)
