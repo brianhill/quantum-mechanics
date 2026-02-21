@@ -24,15 +24,15 @@
 * Monday, Feb. 9  &mdash; Reading: Finish Feynman Chapter III-4 &mdash; Problem Set 8: 1. 71.1; 2. 71.2; 3. 71.4; 4. 71.7; 5. 71.12 (hard but very worthwhile, and take a look at 71.13 if you want to know why it is so worthwhile)
 * Thursday, Feb. 12 &mdash; Reading: All of Feynman Chapter III-5, and the supporting material from II-35 (up to but not including Rabi's method) &mdash; Prolem Set 9: 0.(a) Derive the angular momentum of a spinning sphere from first principles (the definition of angular momentum) and 0.(b) Derive the magnetic moment of a charged spinning disk, starting from the first princples (the definition of magnetic moment); Problems 1-4 are all four of Feynman's problems that go with Chapter III-5
 
-### Week 6 &mdash; Spin 1/2 Systems &mdash; Time-Dependence
+### Week 6 &mdash; Spin 1/2 Systems &mdash; Start Time-Dependence
 
 * Monday, Feb. 16 &mdash; Reading: Do as much reading in Chapter III-6 as you need to do the problem set (the tables at the end summarize all that Feynman derives) &mdash; Problem Set 10: 0. Prove using the formulas given in Section 5-7, what is claimed in the last paragraph of the section; Problems 1-3 are the first three of Feynman's problems that go with Chapter III-6; As Problem 4, redo the last problem on the previous problem set if you misinterpreted it (look briefly at the first few sentences of my solution to understand the intended interpretation)
-* Thursday, Feb. 19 &mdash; Reading: Chapter III-7 &mdash; NB: The only thing you really have to know about relativity is what I quickly derived, which is (a) the relativistic generalization of Newtonian kinetic energy is *m&gamma;c<sup>2</sup>* and (b) the relativistic generalization of Newtonian momentum is *p=m&gamma;v*, (c) *&gamma;* is a factor that appears when *dt/d&tau;* comes out of the relativistic generalization of the time derivative, and (d) you should easily be able to use approximations for *&gamma;* to recover the usual Newtonian expressions &mdash; Problem Set 11: There is only one problem for this chapter &mdash; If you don't have enough to do, locate any statements in the chapter where Feynman leaves something up to the reader to complete and complete it (this is good practice in any technical text by any author)
+* Thursday, Feb. 19 &mdash; Reading: Chapter III-7 &mdash; NB: The only thing you really have to know about relativity is what I quickly derived, which is (a) the relativistic generalization of Newtonian kinetic energy is *m&gamma;c<sup>2</sup>* and (b) the relativistic generalization of Newtonian momentum is *p=m&gamma;v*, (c) *&gamma;* is a factor that appears when *dt/d&tau;* comes out of the relativistic generalization of the time derivative, and (d) you should easily be able to use approximations for *&gamma;* to recover the usual Newtonian expressions &mdash; Problem Set 11: There is only one big problem for this chapter, and we will complete it for the next class, along with some related problems
 
-### Week 7 &mdash;
+### Week 7 &mdash; Time-Dependence &mdash; The Hamiltonian
 
-* Monday, Feb. 23
-* Thursday, Feb. 26
+* Monday, Feb. 23 &mdash; Reading: Consolidate Chapter III-7 &mdash; Problem Set 11: See [Handout and Problems to go with Chapter 7](./HandoutAndProblemsToGoWithChapter7.nb.pdf)
+* Thursday, Feb. 26 &mdash; Reading: We will start Feynman III-8
 
 ### SPRING BREAK &mdash; Saturday, Feb. 28 to Sunday, Mar. 15
 
