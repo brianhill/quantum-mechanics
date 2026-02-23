@@ -32,7 +32,7 @@
 ### Week 7 &mdash; Finish Time-Dependence &mdash; Start Hamiltonians
 
 * Monday, Feb. 23 &mdash; Reading: Consolidate Chapter III-7 &mdash; Problem Set 11: Do the one big problem for this chapter, and the additional problems in [Handout and Problems to go with Chapter 7](./HandoutAndProblemsToGoWithChapter7.nb.pdf)
-* Thursday, Feb. 26 &mdash; Reading: Start Feynman III-8 (you will finish after the break) &mdash; You can get started on problem Set 12, the zeroth problem of which will be [Another Fourier Problem](./AnotherFourierProblem.nb.pdf), and the remaining three problems will be Feynman's three problemms for Chapter III-8, and all of Problem Set 12 will be due Monday, March 16th
+* Thursday, Feb. 26 &mdash; Reading: Start Feynman III-8 (you will finish after the break) &mdash; You can get started on problem Set 12, the zeroth problem of which will be [Another Fourier Problem](./AnotherFourierProblem.nb.pdf), and the remaining three problems will be Feynman's three problems for Chapter III-8 (but none of this will be due until Monday, Mar. 16th)
 
 ### SPRING BREAK &mdash; Saturday, Feb. 28 to Sunday, Mar. 15
 
