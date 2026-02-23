@@ -29,13 +29,12 @@
 * Monday, Feb. 16 &mdash; Reading: Do as much reading in Chapter III-6 as you need to do the problem set (the tables at the end summarize all that Feynman derives) &mdash; Problem Set 10: 0. Prove using the formulas given in Section 5-7, what is claimed in the last paragraph of the section; Problems 1-3 are the first three of Feynman's problems that go with Chapter III-6; As Problem 4, redo the last problem on the previous problem set if you misinterpreted it (look briefly at the first few sentences of my solution to understand the intended interpretation)
 * Thursday, Feb. 19 &mdash; Reading: Chapter III-7 &mdash; NB: The only thing you really have to know about relativity is what I quickly derived, which is (a) the relativistic generalization of Newtonian kinetic energy is *m&gamma;c<sup>2</sup>* and (b) the relativistic generalization of Newtonian momentum is *p=m&gamma;v*, (c) *&gamma;* is a factor that appears when *dt/d&tau;* comes out of the relativistic generalization of the time derivative, and (d) you should easily be able to use approximations for *&gamma;* to recover the usual Newtonian expressions &mdash; Problem Set 11: There is only one big problem for this chapter, and we will complete it for the next class, along with some related problems
 
-### Week 7 &mdash; Time-Dependence &mdash; The Hamiltonian
+### Week 7 &mdash; Finish Time-Dependence &mdash; Start Hamiltonians
 
-* Monday, Feb. 23 &mdash; Reading: Consolidate Chapter III-7 &mdash; Problem Set 11: See [Handout and Problems to go with Chapter 7](./HandoutAndProblemsToGoWithChapter7.nb.pdf)
-* Thursday, Feb. 26 &mdash; Reading: We will start Feynman III-8
+* Monday, Feb. 23 &mdash; Reading: Consolidate Chapter III-7 &mdash; Problem Set 11: Do the one big problem for this chapter, and the additional problems in [Handout and Problems to go with Chapter 7](./HandoutAndProblemsToGoWithChapter7.nb.pdf)
+* Thursday, Feb. 26 &mdash; Reading: Start Feynman III-8 (you will finish after the break) &mdash; You can get started on problem Set 12, the zeroth problem of which will be [Another Fourier Problem.nb](./AnotherFourierProblem.nb.pdf), and the remaining three problems will be Feynman's three problemms for Chapter III-8, and all of Problem Set 12 will be due Monday, March 16th
 
 ### SPRING BREAK &mdash; Saturday, Feb. 28 to Sunday, Mar. 15
 
 * No quantum lunch, Friday, Feb. 27
-* Do we want a quantum brunch Sunday, Mar. 15th at 10:30am?
-
+* Can we have a quantum brunch Sunday, Mar. 15th from 10am to 11am?
