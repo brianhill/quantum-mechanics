@@ -1,3 +1,4 @@
+## Quantum Mechanics &mdash; Daily Schedule Term 4
 
 ### Week 1 &mdash; Introduction to Quantum-Mechanical Interference &mdash; Introduction to Complex Variables
 
@@ -31,10 +32,7 @@
 
 ### Week 7 &mdash; Finish Time-Dependence &mdash; Start Hamiltonians
 
-* Monday, Feb. 23 &mdash; Reading: Consolidate Chapter III-7 &mdash; Problem Set 11: Do the one big problem for this chapter, and the additional problems in [Handout and Problems to go with Chapter 7](./HandoutAndProblemsToGoWithChapter7.nb.pdf)
+* Monday, Feb. 23 &mdash; Reading: Consolidate Chapter III-7 &mdash; Problem Set 11: Do the one big problem for this chapter, and the additional problems in [Handout and Problems to go with Chapter 7](./HandoutAndProblemsToGoWithChapter7.nb.pdf) &mdash; [Ripples in a Pond](https://youtu.be/dESm6VjfSNs?si=-fb46a5ZtzAraXCn) demonstrates group velocity, with both normal dispersion and anomalous dispersion
 * Thursday, Feb. 26 &mdash; Reading: Start Feynman III-8 (you will finish after the break) &mdash; You can get started on problem Set 12, the zeroth problem of which will be [Another Fourier Problem](./AnotherFourierProblem.nb.pdf), and the remaining three problems will be Feynman's three problems for Chapter III-8 (but none of this will be due until Monday, Mar. 16th)
 
-### SPRING BREAK &mdash; Saturday, Feb. 28 to Sunday, Mar. 15
-
-* No quantum lunch, Friday, Feb. 27
-* Can we have a quantum brunch Sunday, Mar. 15th from 10am to 11am?
+See also [Daily Schedule-Term 5](./daily_schedule-term_5.html)
