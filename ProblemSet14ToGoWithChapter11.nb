@@ -1,0 +1,336 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Wolfram 14.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       154,          7]
+NotebookDataLength[     12240,        328]
+NotebookOptionsPosition[     11169,        300]
+NotebookOutlinePosition[     11615,        318]
+CellTagsIndexPosition[     11572,        315]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell["Problem Set 14 \[LongDash] Goes with Chapter 11", "Section",
+ CellChangeTimes->{{3.980612196187374*^9, 3.980612211422606*^9}, {
+  3.983968223819804*^9, 3.9839682248940153`*^9}, {3.9839695309872723`*^9, 
+  3.983969535158185*^9}, {3.983980503040326*^9, 
+  3.983980505030868*^9}},ExpressionUUID->"821ff873-b417-423b-a8a4-\
+5a0d4019d7d8"],
+
+Cell[CellGroupData[{
+
+Cell["For Quantum Mechanics, Thursday, Apr. 2, 2026", "Subtitle",
+ CellChangeTimes->{{3.980620822912372*^9, 3.980620841363928*^9}, {
+  3.9839682338068867`*^9, 
+  3.9839682414390907`*^9}},ExpressionUUID->"cfc20ab9-f802-4f42-a532-\
+dae68ab4fb47"],
+
+Cell["\<\
+The reading that goes with the problem set is Sections III-11-1, III-11-2, \
+III-11-3. Please also take a look at III-11-4, because it might be nice to \
+discuss that in class. We are putting off III-11-6.\
+\>", "Text",
+ CellChangeTimes->{{3.983968514603891*^9, 3.983968519566084*^9}, {
+  3.983969208149592*^9, 3.983969221078026*^9}, {3.983978646917409*^9, 
+  3.983978661829021*^9}, {3.98397871329557*^9, 3.983978749488029*^9}, {
+  3.983980111776696*^9, 
+  3.983980120896441*^9}},ExpressionUUID->"78dd3dcc-f0bf-4b02-97f8-\
+7d7ae53d90e0"],
+
+Cell[CellGroupData[{
+
+Cell["1. How do the Pauli Matrices \[OpenCurlyDoubleQuote]Transform\
+\[CloseCurlyDoubleQuote]", "Subsection",
+ CellChangeTimes->{{3.9806122473340683`*^9, 3.980612272489726*^9}, {
+  3.980621891551169*^9, 3.980621896529681*^9}, {3.9839682628456497`*^9, 
+  3.9839682667006483`*^9}, {3.9839683063812027`*^9, 3.983968307248416*^9}, {
+  3.983968355074514*^9, 
+  3.983968364718157*^9}},ExpressionUUID->"e415f264-7369-4b76-b8c7-\
+29a8008f0537"],
+
+Cell[TextData[{
+ "This problem is based on a statement at the middle of p. 11-4. For at least \
+one Pauli matrix and one transformation, we want to see that the Pauli matrix \
+transforms like a vector. We should do ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["\[Sigma]", "x"], TraditionalForm]],ExpressionUUID->
+  "2c9fe1bb-b329-43f7-a0e7-518748021fc9"],
+ ", and the transformation could be a rotation around the ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"y", "-", "axis"}], TraditionalForm]],ExpressionUUID->
+  "79c7a2e7-3081-40c9-896f-a7040dd0d101"],
+ ". We expect ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["\[Sigma]", "x"], TraditionalForm]],ExpressionUUID->
+  "b873d5f6-854e-4ad1-9418-d11c352a52f4"],
+ " to \[OpenCurlyDoubleQuote]transform\[CloseCurlyDoubleQuote] into some \
+combination of ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["\[Sigma]", "x"], TraditionalForm]],ExpressionUUID->
+  "375fbedf-cbf0-4c68-967b-4f6fd1589b6b"],
+ " and ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["\[Sigma]", "z"], TraditionalForm]],ExpressionUUID->
+  "dba26b59-08b1-4ad1-a98f-a76012ba94a6"],
+ ". Now I will try to explain what that might mean. Also, Feynman warned us \
+that this is going to be a lot of algebra. That is why we are only doing one \
+Pauli matrix and just a simple rotation by \[Phi] about the ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"y", "-", "axis"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "3129ced6-38cd-4ae3-87f5-a442e0dd29d0"],
+ ". Let\[CloseCurlyQuote]s get more precise....\n\nLet ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"|", "\[VeryThinSpace]", 
+    RowBox[{"\[Psi]", ">"}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "f66b4114-c3a3-43e0-a482-e72e0dd78d95"],
+ " and ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"|", "\[VeryThinSpace]", 
+    RowBox[{"\[Chi]", ">"}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "8a0993bc-9cc4-4a10-bba1-32d083a3fd72"],
+ " be two states. Let ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["R", "y"], "(", "\[Phi]", ")"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "2e316a47-c6a2-4d4e-9cca-e11195553175"],
+ " be a rotation about the ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"y", "-", "axis"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "6e0ef362-553c-4f46-9df9-4869bc13a5a3"],
+ ". I am deliberately being a little vague about whether we are rotating the \
+apparatus that measures the states defined in basis ",
+ Cell[BoxData[
+  FormBox["S", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "886a9c1f-2fec-4a56-b09d-4e6815b7d9fd"],
+ " to a new basis ",
+ Cell[BoxData[
+  FormBox["T", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "52f904a4-04a9-49e1-a85c-f1cefdaff563"],
+ ", or whether we are rotating the states themselves, because I am frankly \
+not sure which we mean. Whichever the interpretation is, you can find the \
+effect of ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["R", "y"], "(", "\[Phi]", ")"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "a963dd00-306c-4f62-b99b-6b034715dba4"],
+ " back in the tables on p. III-6-14.\n\nNow consider ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     SubscriptBox["R", "y"], "(", "\[Phi]", ")"}], "|", 
+    RowBox[{"\[Psi]", ">"}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "ae7d2bd0-fc76-4df4-9dd1-bbef492777cb"],
+ " and ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     SubscriptBox["R", "y"], "(", "\[Phi]", ")"}], "|", 
+    RowBox[{"\[Chi]", ">"}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "c0e838d8-72ae-461a-8f7e-0e318fcc42c8"],
+ ". Give them names ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"|", 
+    RowBox[{
+     SubscriptBox["\[Psi]", "\[Phi]"], ">", "\[Congruent]", " ", 
+     RowBox[{
+      SubscriptBox["R", "y"], "(", "\[Phi]", ")"}]}], "|", 
+    RowBox[{"\[Psi]", ">"}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "4aecb096-4c4c-4fe4-ad3c-c9878538f0fc"],
+ " and ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"|", 
+    RowBox[{
+     SubscriptBox["\[Chi]", "\[Phi]"], ">", "\[Congruent]", " ", 
+     RowBox[{
+      SubscriptBox["R", "y"], "(", "\[Phi]", ")"}]}], "|", 
+    RowBox[{"\[Chi]", ">"}]}], TraditionalForm]],ExpressionUUID->
+  "111ae2e1-c58e-4103-aef5-acae9b9a67db"],
+ ".\n\nWhat this problem boils down to is calculating ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"<", 
+     SubscriptBox["\[Chi]", "\[Phi]"]}], "|", 
+    SubscriptBox["\[Sigma]", "x"], "|", 
+    RowBox[{
+     SubscriptBox["\[Psi]", "\[Phi]"], ">"}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "b488a5e0-f3df-4e9c-9270-0d936113514b"],
+ " and hopefully discovering that it is some combination of",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"<", "\[Chi]"}], "|", 
+    SubscriptBox["\[Sigma]", "x"], "|", 
+    RowBox[{"\[Psi]", ">"}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "e0a76ac5-6bf9-4873-a103-b249e68aff9f"],
+ " and ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"<", "\[Chi]"}], "|", 
+    SubscriptBox["\[Sigma]", "z"], "|", 
+    RowBox[{"\[Psi]", ">"}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "fa2ab1da-be77-416a-9948-d8977e045148"],
+ ". The combination has to be independent of what ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"|", "\[VeryThinSpace]", 
+    RowBox[{"\[Psi]", ">"}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "2363d80b-6533-4de2-89a9-c10532c8bc43"],
+ " and ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"|", "\[VeryThinSpace]", 
+    RowBox[{"\[Chi]", ">"}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "7ea1641b-6349-424a-acb0-867fc75671f4"],
+ " are chosen. They could be any states whatsoever!\n\nIt might help to use \
+this: ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["\[Sigma]", "x"], "=", 
+    RowBox[{"|", 
+     RowBox[{
+      RowBox[{"S", "+"}], ">", "<", 
+      RowBox[{"S", "-"}]}], "|", "    ", 
+     RowBox[{"+", "    ", 
+      RowBox[{"|", 
+       RowBox[{
+        RowBox[{"S", "-"}], " ", ">", "<", 
+        RowBox[{"S", "+"}]}], "|", " "}]}]}]}], TraditionalForm]],
+  ExpressionUUID->"d3b73b18-8c64-45ab-82eb-194c7f30d040"],
+ ".\n\nHopefully we\[CloseCurlyQuote]ll find a combination of ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["\[Sigma]", "x"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "d415e4ce-5625-4a7e-9d6f-a376e526adf5"],
+ " and ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["\[Sigma]", "y"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "5994ce84-8d6d-447a-a7b1-85354909fcc6"],
+ " that makes perfect sense as if the \[Sigma]\[CloseCurlyQuote]s were \
+undergoing a vector transformation by \[Phi] around the ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"y", "-", "axis"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "fad1edc3-529f-4863-9879-3edcb115d14c"],
+ ". Apply the right-hand rule carefully if you want to get precise about the \
+difference between \[Phi] and -\[Phi] or between transforming the states and \
+transforming the apparatus."
+}], "Text",
+ CellChangeTimes->{{3.98396923381458*^9, 3.983969236753495*^9}, {
+  3.983969276745022*^9, 3.983969359949225*^9}, {3.983977511570601*^9, 
+  3.983977714167883*^9}, {3.983977757358551*^9, 3.983977765442893*^9}, {
+  3.98397781623603*^9, 3.9839783337875223`*^9}, {3.983978384006692*^9, 
+  3.983978395168198*^9}, {3.983978459381966*^9, 3.983978562089431*^9}, {
+  3.98397878774242*^9, 3.983978871581029*^9}, {3.983979650250177*^9, 
+  3.983980087147643*^9}, {3.983980138034999*^9, 3.9839802111384974`*^9}, {
+  3.98398079340959*^9, 
+  3.983980793736505*^9}},ExpressionUUID->"1b5dabef-4955-4afd-b6aa-\
+d35ec6643306"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["2. Feynman Problem 78.1(a)", "Subsection",
+ CellChangeTimes->{{3.9806122473340683`*^9, 3.980612272489726*^9}, {
+  3.980621891551169*^9, 3.980621896529681*^9}, {3.9839682628456497`*^9, 
+  3.9839682667006483`*^9}, {3.9839683063812027`*^9, 3.983968307248416*^9}, {
+  3.983968371163476*^9, 3.983968371285726*^9}, {3.983968411563058*^9, 
+  3.983968411680181*^9}, {3.983978620892232*^9, 3.983978631838666*^9}, {
+  3.983978783603118*^9, 3.983978784037109*^9}, {3.983978869597402*^9, 
+  3.983978870287882*^9}},ExpressionUUID->"eb6fbccf-5c00-47b8-bc54-\
+55886a79d0a9"],
+
+Cell["\<\
+Just do this problem mechanically. This time we aren\[CloseCurlyQuote]t \
+trying to prove they are vectors. We are just discovering some vector-like \
+identities. Only do Part (a). I have no idea what Feynman wants in (b).\
+\>", "Text",
+ CellChangeTimes->{{3.983968445288169*^9, 3.983968483909388*^9}, {
+  3.983978571150169*^9, 3.983978590753533*^9}, {3.983980098336513*^9, 
+  3.983980099340966*^9}, {3.983980811977839*^9, 
+  3.983980815977108*^9}},ExpressionUUID->"a8892d36-a9c5-4d5e-9678-\
+24eb0fcc34e6"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{933, 847},
+WindowMargins->{{362, Automatic}, {Automatic, 0}},
+PrintingCopies->1,
+PrintingPageRange->{1, Automatic},
+FrontEndVersion->"14.3 for Mac OS X ARM (64-bit) (July 8, 2025)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"96918d6d-c74e-4770-845e-d8612057a321"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[554, 20, 340, 5, 82, "Section",ExpressionUUID->"821ff873-b417-423b-a8a4-5a0d4019d7d8"],
+Cell[CellGroupData[{
+Cell[919, 29, 244, 4, 65, "Subtitle",ExpressionUUID->"cfc20ab9-f802-4f42-a532-dae68ab4fb47"],
+Cell[1166, 35, 547, 10, 69, "Text",ExpressionUUID->"78dd3dcc-f0bf-4b02-97f8-7d7ae53d90e0"],
+Cell[CellGroupData[{
+Cell[1738, 49, 436, 7, 66, "Subsection",ExpressionUUID->"e415f264-7369-4b76-b8c7-29a8008f0537"],
+Cell[2177, 58, 7843, 214, 730, "Text",ExpressionUUID->"1b5dabef-4955-4afd-b6aa-d35ec6643306"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[10057, 277, 565, 8, 66, "Subsection",ExpressionUUID->"eb6fbccf-5c00-47b8-bc54-55886a79d0a9"],
+Cell[10625, 287, 516, 9, 69, "Text",ExpressionUUID->"a8892d36-a9c5-4d5e-9678-24eb0fcc34e6"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+

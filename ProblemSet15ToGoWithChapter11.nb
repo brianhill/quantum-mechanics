@@ -1,0 +1,227 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Wolfram 14.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       154,          7]
+NotebookDataLength[      8695,        219]
+NotebookOptionsPosition[      7623,        191]
+NotebookOutlinePosition[      8070,        209]
+CellTagsIndexPosition[      8027,        206]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell["Problem Set 15 \[LongDash] Also Goes with Chapter 11", "Section",
+ CellChangeTimes->{{3.980612196187374*^9, 3.980612211422606*^9}, {
+  3.983968223819804*^9, 3.9839682248940153`*^9}, {3.9839695309872723`*^9, 
+  3.983969535158185*^9}, {3.983980615438734*^9, 
+  3.983980622471321*^9}},ExpressionUUID->"821ff873-b417-423b-a8a4-\
+5a0d4019d7d8"],
+
+Cell[CellGroupData[{
+
+Cell["For Quantum Mechanics, Monday, Apr. 6, 2026", "Subtitle",
+ CellChangeTimes->{{3.980620822912372*^9, 3.980620841363928*^9}, {
+  3.9839682338068867`*^9, 3.9839682414390907`*^9}, {3.983980527357904*^9, 
+  3.983980530247429*^9}, {3.9839806287273607`*^9, 
+  3.98398062886162*^9}},ExpressionUUID->"cfc20ab9-f802-4f42-a532-\
+dae68ab4fb47"],
+
+Cell["\<\
+The reading that goes with this problem set is III-11-6. Also look ahead and \
+read III-16-1, which is your first reading on the Schrodinger Equation which \
+applies to probability amplitudes that depend on position.\
+\>", "Text",
+ CellChangeTimes->{{3.983968514603891*^9, 3.983968519566084*^9}, {
+  3.983969208149592*^9, 3.983969221078026*^9}, {3.983980541318819*^9, 
+  3.983980543838336*^9}, {3.983981165199122*^9, 3.983981168151512*^9}, {
+  3.983981221209655*^9, 
+  3.983981259548587*^9}},ExpressionUUID->"78dd3dcc-f0bf-4b02-97f8-\
+7d7ae53d90e0"],
+
+Cell[CellGroupData[{
+
+Cell["  1. Exponential and Trig Functions of Pauli Matrices", "Subsection",
+ CellChangeTimes->{{3.9806122473340683`*^9, 3.980612272489726*^9}, {
+   3.980621891551169*^9, 3.980621896529681*^9}, {3.9839682628456497`*^9, 
+   3.9839682667006483`*^9}, {3.9839683063812027`*^9, 3.983968307248416*^9}, {
+   3.983968355074514*^9, 3.983968406625751*^9}, {3.983977711544046*^9, 
+   3.983977712396945*^9}, 3.98397808148806*^9, {3.983978543592001*^9, 
+   3.983978544567422*^9}, {3.983980609303006*^9, 
+   3.983980609780491*^9}},ExpressionUUID->"bd7f4c6f-2807-4ccb-9228-\
+6374abf56214"],
+
+Cell[TextData[{
+ "This is just a bit more mechanical practice, but quite suggestive practice, \
+that helps you start seeing the convenience of working with Pauli matrices.\n\
+\n(a) Derive/check the identities in Table 11-2 using Table 11-1.\n(b) What \
+is ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"cos", " ", 
+    SubscriptBox["\[Alpha]\[Sigma]", "x"]}], TraditionalForm]],ExpressionUUID->
+  "1799b62d-3472-4fde-871e-10930dc1bea2"],
+ "? Use the Taylor series for cosine to define the cosine of a matrix.\n(c) \
+What is ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"sin", " ", 
+    SubscriptBox["\[Alpha]\[Sigma]", "x"]}], TraditionalForm]],ExpressionUUID->
+  "bf4ba7a4-2fb5-42ca-9b78-59d8569ef6d0"],
+ "? Use the Taylor series for sine.\n(d) What is ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["e", 
+    RowBox[{"i", "\[VeryThinSpace]", "\[Alpha]", "\[VeryThinSpace]", 
+     SubscriptBox["\[Sigma]", "x"]}]], TraditionalForm]],ExpressionUUID->
+  "f7df0109-a8bf-45cd-afac-a0a110802e97"],
+ "? Use the Taylor series for the exponential.\n(e) What is the relation \
+between the quantities in (b), (c), and (d)?\n(f) With no significant \
+additional work what is the relationship between ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["e", 
+    RowBox[{
+     RowBox[{"-", "i"}], "\[VeryThinSpace]\[VeryThinSpace]", "\[Mu]", "\[VeryThinSpace]", 
+     SubscriptBox["B", "x"], 
+     SubscriptBox["\[Sigma]", "x"], 
+     RowBox[{"t", "/", "\[HBar]"}]}]], TraditionalForm]],ExpressionUUID->
+  "a64e9e6e-da24-451d-98bc-2b0340aaafb3"],
+ ", ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"cos", " ", 
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{"-", "i"}], "\[VeryThinSpace]\[VeryThinSpace]", "\[Mu]", "\[VeryThinSpace]", 
+      SubscriptBox["B", "x"], 
+      SubscriptBox["\[Sigma]", "x"], 
+      RowBox[{"t", "/", "\[HBar]"}]}], ")"}]}], TraditionalForm]],
+  ExpressionUUID->"fa000920-3e92-4851-8867-3f866c1aa366"],
+ ", and ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"sin", " ", 
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{"-", "i"}], "\[VeryThinSpace]\[VeryThinSpace]", "\[Mu]", "\[VeryThinSpace]", 
+      SubscriptBox["B", "x"], 
+      SubscriptBox["\[Sigma]", "x"], 
+      RowBox[{"t", "/", "\[HBar]"}]}], ")"}]}], TraditionalForm]],
+  ExpressionUUID->"f4b663e1-5546-403f-8a93-4c80cc9738dd"],
+ "?\n(g) As a rhetorical question, can you see that the result you got in (f) \
+might be extremely useful?"
+}], "Text",
+ CellChangeTimes->{{3.983969364740806*^9, 3.983969465751883*^9}, {
+  3.983980658010148*^9, 3.983980680493806*^9}, {3.983981266975162*^9, 
+  3.983981727384842*^9}, {3.983981944013588*^9, 
+  3.983982132488153*^9}},ExpressionUUID->"abef8f8c-45e2-4e75-9cb6-\
+33160743448f"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["2. Feynman Problem for 78.4 for Chapter 11", "Subsection",
+ CellChangeTimes->{{3.9806122473340683`*^9, 3.980612272489726*^9}, {
+  3.980621891551169*^9, 3.980621896529681*^9}, {3.983968256411457*^9, 
+  3.983968270948419*^9}, {3.983968311269022*^9, 3.98396831338275*^9}, {
+  3.983968373071863*^9, 3.983968373146867*^9}, {3.983968413422265*^9, 
+  3.983968427328349*^9}, {3.9839806118529987`*^9, 
+  3.983980612015799*^9}},ExpressionUUID->"413cda28-8731-45f7-8881-\
+d270e9897077"],
+
+Cell[TextData[{
+ "You will need Section III-11-6 for this problem. Feynman has a sneaky way \
+of attacking the problem that does not require the determinant of a 6x6 \
+matrix. Read what he suggests as an approach for finding ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["E", "I"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "ca66f23c-1c91-42a1-a02b-c548cd95108d"],
+ ", ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["E", 
+    RowBox[{"I", "\[VeryThinSpace]", "I"}]], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "14541036-cda1-424c-b4cc-b3df7a5b5c79"],
+ ", etc., and the associated ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["C", 
+    RowBox[{"I", ",", "\[VeryThinSpace]", "i"}]], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "f68b6487-8040-4fe7-a9c5-8a045388af86"],
+ ", ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["C", 
+    RowBox[{
+     RowBox[{"I", "\[VeryThinSpace]", "I"}], ",", "\[VeryThinSpace]", "i"}]], 
+   TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "36550799-7495-4443-8e9a-843acd99f750"],
+ ", etc.\n\nIt might be helpful to do the same problem but with only 3 atoms \
+in the ring first. There will be less algebra to balloon the problem up with. \
+However, once you have done it for 3 and 6 atoms, probably you can write your \
+answer in a nice way that does it once and for all for a ring of ",
+ Cell[BoxData[
+  FormBox["N", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "61c2a718-7352-43ae-8fa0-7ecc388a1c34"],
+ " atoms."
+}], "Text",
+ CellChangeTimes->{{3.983968489643042*^9, 3.9839684980536623`*^9}, {
+  3.983969472770564*^9, 3.983969493936009*^9}, {3.9839805670783978`*^9, 
+  3.983980604907061*^9}, {3.983980699606298*^9, 3.98398075611285*^9}, {
+  3.983981747536149*^9, 3.9839818545939627`*^9}, {3.983982141402486*^9, 
+  3.983982141940474*^9}, {3.983982172378468*^9, 
+  3.983982184480595*^9}},ExpressionUUID->"5f6555fc-195c-41aa-a879-\
+31dd949e3d68"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{808, 847},
+WindowMargins->{{59, Automatic}, {224, Automatic}},
+PrintingCopies->1,
+PrintingPageRange->{1, Automatic},
+FrontEndVersion->"14.3 for Mac OS X ARM (64-bit) (July 8, 2025)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"96918d6d-c74e-4770-845e-d8612057a321"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[554, 20, 345, 5, 82, "Section",ExpressionUUID->"821ff873-b417-423b-a8a4-5a0d4019d7d8"],
+Cell[CellGroupData[{
+Cell[924, 29, 338, 5, 65, "Subtitle",ExpressionUUID->"cfc20ab9-f802-4f42-a532-dae68ab4fb47"],
+Cell[1265, 36, 559, 10, 96, "Text",ExpressionUUID->"78dd3dcc-f0bf-4b02-97f8-7d7ae53d90e0"],
+Cell[CellGroupData[{
+Cell[1849, 50, 573, 8, 66, "Subsection",ExpressionUUID->"bd7f4c6f-2807-4ccb-9228-6374abf56214"],
+Cell[2425, 60, 2665, 65, 342, "Text",ExpressionUUID->"abef8f8c-45e2-4e75-9cb6-33160743448f"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5127, 130, 481, 7, 66, "Subsection",ExpressionUUID->"413cda28-8731-45f7-8881-d270e9897077"],
+Cell[5611, 139, 1984, 48, 261, "Text",ExpressionUUID->"5f6555fc-195c-41aa-a879-31dd949e3d68"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
