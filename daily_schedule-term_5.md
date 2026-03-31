@@ -17,4 +17,4 @@ See also [Daily Schedule-Term 4](./daily_schedule-term_4.html)
 ### Week 10 &mdash; Exam 2 &mdash; Pauli Matrices &mdash; Finish Hamiltonian Formulation of Two-State Systems
 
 * Monday, Mar. 30 &mdash; Problem Set 13: Finish Feynman Problem 77.2 &mdash; Study Section 11-1 on the Pauli Matrices
-* Thursday, Apr. 2
+* Thursday, Apr. 2 &mdash; Study Feynman Sections 11-2, 11-3, and 11-6
