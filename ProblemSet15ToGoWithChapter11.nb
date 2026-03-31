@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       154,          7]
-NotebookDataLength[      8695,        219]
-NotebookOptionsPosition[      7623,        191]
-NotebookOutlinePosition[      8070,        209]
-CellTagsIndexPosition[      8027,        206]
+NotebookDataLength[      8685,        219]
+NotebookOptionsPosition[      7613,        191]
+NotebookOutlinePosition[      8060,        209]
+CellTagsIndexPosition[      8017,        206]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -36,14 +36,15 @@ dae68ab4fb47"],
 
 Cell["\<\
 The reading that goes with this problem set is III-11-6. Also look ahead and \
-read III-16-1, which is your first reading on the Schrodinger Equation which \
-applies to probability amplitudes that depend on position.\
+read III-16-1, which is your first reading on the Schrodinger Equation. The \
+Schrodinger Equation applies to probability amplitudes that depend on \
+position.\
 \>", "Text",
  CellChangeTimes->{{3.983968514603891*^9, 3.983968519566084*^9}, {
   3.983969208149592*^9, 3.983969221078026*^9}, {3.983980541318819*^9, 
   3.983980543838336*^9}, {3.983981165199122*^9, 3.983981168151512*^9}, {
-  3.983981221209655*^9, 
-  3.983981259548587*^9}},ExpressionUUID->"78dd3dcc-f0bf-4b02-97f8-\
+  3.983981221209655*^9, 3.983981259548587*^9}, {3.983982268126503*^9, 
+  3.98398227359935*^9}},ExpressionUUID->"78dd3dcc-f0bf-4b02-97f8-\
 7d7ae53d90e0"],
 
 Cell[CellGroupData[{
@@ -99,8 +100,7 @@ additional work what is the relationship between ",
   FormBox[
    RowBox[{"cos", " ", 
     RowBox[{"(", 
-     RowBox[{
-      RowBox[{"-", "i"}], "\[VeryThinSpace]\[VeryThinSpace]", "\[Mu]", "\[VeryThinSpace]", 
+     RowBox[{"\[Mu]", "\[VeryThinSpace]", 
       SubscriptBox["B", "x"], 
       SubscriptBox["\[Sigma]", "x"], 
       RowBox[{"t", "/", "\[HBar]"}]}], ")"}]}], TraditionalForm]],
@@ -110,8 +110,7 @@ additional work what is the relationship between ",
   FormBox[
    RowBox[{"sin", " ", 
     RowBox[{"(", 
-     RowBox[{
-      RowBox[{"-", "i"}], "\[VeryThinSpace]\[VeryThinSpace]", "\[Mu]", "\[VeryThinSpace]", 
+     RowBox[{"\[Mu]", "\[VeryThinSpace]", 
       SubscriptBox["B", "x"], 
       SubscriptBox["\[Sigma]", "x"], 
       RowBox[{"t", "/", "\[HBar]"}]}], ")"}]}], TraditionalForm]],
@@ -121,8 +120,9 @@ might be extremely useful?"
 }], "Text",
  CellChangeTimes->{{3.983969364740806*^9, 3.983969465751883*^9}, {
   3.983980658010148*^9, 3.983980680493806*^9}, {3.983981266975162*^9, 
-  3.983981727384842*^9}, {3.983981944013588*^9, 
-  3.983982132488153*^9}},ExpressionUUID->"abef8f8c-45e2-4e75-9cb6-\
+  3.983981727384842*^9}, {3.983981944013588*^9, 3.983982132488153*^9}, {
+  3.983987421935562*^9, 
+  3.983987427122706*^9}},ExpressionUUID->"abef8f8c-45e2-4e75-9cb6-\
 33160743448f"]
 }, Open  ]],
 
@@ -211,14 +211,14 @@ Notebook[{
 Cell[554, 20, 345, 5, 82, "Section",ExpressionUUID->"821ff873-b417-423b-a8a4-5a0d4019d7d8"],
 Cell[CellGroupData[{
 Cell[924, 29, 338, 5, 65, "Subtitle",ExpressionUUID->"cfc20ab9-f802-4f42-a532-dae68ab4fb47"],
-Cell[1265, 36, 559, 10, 96, "Text",ExpressionUUID->"78dd3dcc-f0bf-4b02-97f8-7d7ae53d90e0"],
+Cell[1265, 36, 626, 11, 96, "Text",ExpressionUUID->"78dd3dcc-f0bf-4b02-97f8-7d7ae53d90e0"],
 Cell[CellGroupData[{
-Cell[1849, 50, 573, 8, 66, "Subsection",ExpressionUUID->"bd7f4c6f-2807-4ccb-9228-6374abf56214"],
-Cell[2425, 60, 2665, 65, 342, "Text",ExpressionUUID->"abef8f8c-45e2-4e75-9cb6-33160743448f"]
+Cell[1916, 51, 573, 8, 66, "Subsection",ExpressionUUID->"bd7f4c6f-2807-4ccb-9228-6374abf56214"],
+Cell[2492, 61, 2588, 64, 342, "Text",ExpressionUUID->"abef8f8c-45e2-4e75-9cb6-33160743448f"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[5127, 130, 481, 7, 66, "Subsection",ExpressionUUID->"413cda28-8731-45f7-8881-d270e9897077"],
-Cell[5611, 139, 1984, 48, 261, "Text",ExpressionUUID->"5f6555fc-195c-41aa-a879-31dd949e3d68"]
+Cell[5117, 130, 481, 7, 66, "Subsection",ExpressionUUID->"413cda28-8731-45f7-8881-d270e9897077"],
+Cell[5601, 139, 1984, 48, 261, "Text",ExpressionUUID->"5f6555fc-195c-41aa-a879-31dd949e3d68"]
 }, Open  ]]
 }, Open  ]]
 }
