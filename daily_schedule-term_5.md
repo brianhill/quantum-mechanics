@@ -27,4 +27,4 @@ See also [Daily Schedule-Term 4](./daily_schedule-term_4.html)
 ### Week 12 &mdash; Start Schrodinger's Equation
 
 * Monday, Apr. 13 &mdash; Study Feynman III-16-1 and III-16-2 &mdash; For Problem Set 17, just do one more of Feynman's crystal lattice problems, Problem 80.2
-* Thursday, Apr. 16 &mdash; Study Feynman II-16-3 and III-16-4 &mdash; For Problem Set 18, do the first of Feynman's Schrodinger Equation problems, 83.1 &mdash; Part (e) of 83.1 may require a tricky argument, perhaps scaling out all the dimensional dependence of the integral
+* Thursday, Apr. 16 &mdash; Study Feynman III-16-3 and III-16-4 &mdash; For Problem Set 18, do the first of Feynman's Schrodinger Equation problems, 83.1 &mdash; Part (e) of 83.1 may require a tricky argument, perhaps scaling out all the dimensional dependence of the integral
