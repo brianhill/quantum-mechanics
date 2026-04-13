@@ -19,6 +19,12 @@ See also [Daily Schedule-Term 4](./daily_schedule-term_4.html)
 * Monday, Mar. 30 &mdash; Problem Set 13: Finish Feynman Problem 77.2 &mdash; Study Section 11-1 on the Pauli Matrices
 * Thursday, Apr. 2 &mdash; Study Feynman Sections 11-2 and 11-3, and take a look at 11-4 &mdash; Do [Problem Set 14](./ProblemSet14ToGoWithChapter11.nb.pdf)
 
-### Week 11 &mdash; Start Schrodinger's Equation
+### Week 11 &mdash; Electron Propagation in a Crystal Lattice
 
-* Monday, Apr. 6 &mdash; Study Feynman III-11-6. Also look ahead and read III-16-1, which is your first reading on the Schrodinger Equation &mdash; Do [Problem Set 15](./ProblemSet15ToGoWithChapter11.nb.pdf)
+* Monday, Apr. 6 &mdash; Study Feynman III-11-6 &mdash; Do [Problem Set 15](./ProblemSet15ToGoWithChapter11.nb.pdf)
+* Thursday, Apr. 9 &mdash; Study Feynman III-13-3 and III-13-4 &mdash; For Problem Set 16, follow Feynmans's "something you can play with on p. 13-6" suggestion and do Feynman Problem 80.1
+
+### Week 12 &mdash; Start Schrodinger's Equation
+
+* Monday, Apr. 13 &mdash; Study Feynman III-16-1 and III-16-2 &mdash; For Problem Set 17, just do one more of Feynman's crystal lattice problems, Problem 80.2
+* Thursday, Apr. 16 &mdash; Study Feynman II-16-3 and III-16-4 &mdash; For Problem Set 18, do the first of Feynman's Schrodinger Equation problems, 83.1 &mdash; Part (e) of 83.1 may require a tricky argument, perhaps scaling out all the dimensional dependence of the integral
