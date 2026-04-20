@@ -32,7 +32,9 @@ See also [Daily Schedule-Term 4](./daily_schedule-term_4.html)
 ### Week 13 &mdash; Continue Schrodinger's Equation
 
 * Monday, April 20 &mdash; Study Moore Chapter Q.9 (essentially a review of Feynman Chapter III-16) and Moore Sections Q.10.1, Q.10.2, and Q.10.3 &mdash; For Problem Set 19, do Moore Problems Q9M.6, Q9M.7, and Q9D.2
-* Thursday, April 23 &mdash; Choose problems for Exam 3 (take-home) on Schrodinger's Equation
+* Thursday, April 23 &mdash; For Problem Set 20, do Moore Problems Q10B.7, Q10D.1, Q10D.4, and Q10D.8
+
+Choose problems for Exam 3 (take-home) on Schrodinger's Equation
 
 ### Week 14 &mdash; Exam 3
 
