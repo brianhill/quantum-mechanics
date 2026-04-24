@@ -34,6 +34,7 @@ See also [Daily Schedule-Term 4](./daily_schedule-term_4.html)
 * Monday, April 20 &mdash; Study Moore Chapter Q.9 (essentially a review of Feynman Chapter III-16) and Moore Sections Q.10.1, Q.10.2, and Q.10.3 &mdash; For Problem Set 19, do Moore Problems Q9M.6, Q9M.7, and Q9D.2
 * Thursday, April 23 &mdash; For Problem Set 20, do Moore Problems Q10B.7, Q10D.1, Q10D.4, and Q10D.8
 
-### Week 14 &mdash; Exam 3
+### Week 14 &mdash; Exam 3 on Wave Functions and Schrodinger's Equation
 
-* Monday, April 27 &mdash; Go over Exam 3
+* Monday, April 27 &mdash; Exam 3 is four Schrodinger Equation problems from Moore &mdash; On Monday, we will go over these problems: 1. Q12B.6, 2. Q12D.1, 3. Q12D.3, 4. Q12D.4
+
