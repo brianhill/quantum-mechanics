@@ -29,10 +29,10 @@ See also [Daily Schedule-Term 4](./daily_schedule-term_4.html)
 * Monday, Apr. 13 &mdash; Study Feynman III-16-1 and III-16-2 &mdash; For Problem Set 17, just do one more of Feynman's crystal lattice problems, Problem 80.2
 * Thursday, Apr. 16 &mdash; Study Feynman III-16-3 and III-16-4 &mdash; For Problem Set 18, do the first of Feynman's Schrodinger Equation problems, 83.1 &mdash; Part (e) of 83.1 may require a tricky argument, perhaps scaling out all the dimensional dependence of the integral
 
-### Week 13 &mdash; Continue Schrodinger's Equation
+### Week 13 &mdash; Qualitative Behavior and Solutions of Schrodinger's Equation
 
 * Monday, April 20 &mdash; Study Moore Chapter Q.9 (essentially a review of Feynman Chapter III-16) and Moore Sections Q.10.1, Q.10.2, and Q.10.3 &mdash; For Problem Set 19, do Moore Problems Q9M.6, Q9M.7, and Q9D.2
-* Thursday, April 23 &mdash; For Problem Set 20, do Moore Problems Q10B.7, Q10D.1, Q10D.4, and Q10D.8
+* Thursday, April 23 &mdash; For Problem Set 20, do Moore Problems Q10B.7, Q10D.1, Q10D.4, and Q10D.8 &mdash; Read ahead in Moore Chapter 12 &mdash; Qualitative behavior of Shrodinger's Equation &mdash; Square Well and Harmonic Oscillator Solutions
 
 ### Week 14 &mdash; Exam 3 on Wave Functions and Schrodinger's Equation
 
